@@ -20,6 +20,10 @@ class Deck
   end
 
   def deal
-    # your code here
+    @cards.pop(4)
+  end
+
+  def num_cards
+    @cards.count
   end
 end
